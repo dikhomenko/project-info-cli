@@ -10,10 +10,10 @@
 ## Встановлення
 
 1. Склонуйте репозиторій на свій комп'ютер:
-    git clone https://github.com/bingooo1337/project-init2024
+    git clone https://github.com/dikhomenko/project-info-cli.git
 
 2. Перейдіть у каталог з проектом:
-    cd project-init2024
+    cd project-info-cli
 
 3. Виконайте наступну команду в терміналі для збудування програми та її встановлення:
     python3 setup.py build --build-lib=. && python3 setup.py install
