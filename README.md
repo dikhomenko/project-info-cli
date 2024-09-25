@@ -1,47 +1,50 @@
 # project-info-cli
 
+This personal assistant is an application that allows you to easily manage your contacts and notes. Thanks to it, you can quickly add, edit and delete contacts, as well as save important notes and perform various actions with them.
 
-Цей персональний помічник - це програма, яка дозволяє вам легко керувати вашими контактами та нотатками. Завдяки йому ви можете швидко додавати, редагувати та видаляти контакти, а також зберігати важливі нотатки та виконувати різні дії з ними.
+## Requirements
 
-## Вимоги
+To use the program, you must have Python 3.x installed on your computer.
 
-Для використання програми потрібно мати встановлену версію Python 3.x на вашому комп'ютері.
+## Installation
 
 ## Встановлення
 
-1. Склонуйте репозиторій на свій комп'ютер:
-    git clone https://github.com/dikhomenko/project-info-cli.git
+1. Clone the repository to your computer:
+   git clone https://github.com/dikhomenko/project-info-cli.git
 
-2. Перейдіть у каталог з проектом:
-    cd project-info-cli
+2. Go to the directory with the project:
+   cd project-info-cli
 
-3. Виконайте наступну команду в терміналі для збудування програми та її встановлення:
-    python3 setup.py build --build-lib=. && python3 setup.py install
+3. Run the following command in Terminal to build and install the app:
+   python3 setup.py build --build-lib=. && python3 setup.py install
 
-## Використання
+## How to use
 
-1. **Керування контактами:**
-   - Додавайте нові контакти, використовуючи команду `add-contact`.
-   - Видаляйте контакти за допомогою команди `delete-contact`.
-   - Редагуйте телефонні номери для контактів за допомогою команди `change-phone`.
-   - Переглядайте список всіх контактів за допомогою команди `all-contacts`.
-   - Також є можливість додавати та переглядати інші дані контактів, такі як адреса, електронна пошта та дата народження.
+1. **Manage contacts:**
 
-2. **Керування нотатками:**
-   - Додавайте нові нотатки за допомогою команди `add-note`.
-   - Редагуйте вміст нотаток за допомогою команди `change-note`.
-   - Видаляйте нотатки за допомогою команди `delete-note`.
-   - Переглядайте список всіх нотаток за допомогою команди `all-notes`.
-   - Можливо додати та шукати нотатки за тегами.
+- Add new contacts using the `add-contact` command.
+- Delete contacts using the `delete-contact` command.
+- Edit phone numbers for contacts using the `change-phone` command.
+- View the list of all contacts using the `all-contacts` command.
+- There is also an option to add and view other contact details such as address, email and date of birth.
 
-## Важливо
+2. **Manage notes:**
 
-Зміни у вашому списку контактів та нотаток будуть збережені автоматично при завершенні програми.
+- Add new notes using the `add-note` command.
+- Edit the contents of notes using the `change-note` command.
+- Delete notes using the `delete-note` command.
+- View a list of all notes using the `all-notes` command.
+- It is possible to add and search for notes by tags.
 
-## Ліцензія
+## Important
 
-Цей проект ліцензований під ліцензією [MIT License](https://opensource.org/license/MIT).
+Changes to your contact list and notes will be saved automatically when you exit the program.
 
-## Контактна інформація
+## License
 
-Якщо у вас виникли питання або пропозиції, будь ласка, зв'яжіться з нами будь-яким способом.
+This project is licensed under [MIT License](https://opensource.org/license/MIT).
+
+## Contact information
+
+If you have any questions or suggestions, please feel free to contact us by any means.
